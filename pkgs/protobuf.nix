@@ -1,5 +1,6 @@
 { stdenv
 , gnumake
+, autoconf
 , curl
 , bzip2
 , automake
@@ -37,4 +38,4 @@ stdenv.mkDerivation {
     mkdir -p $out
     make install
   '';
-};
+}
